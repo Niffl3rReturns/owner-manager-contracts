@@ -1,9 +1,10 @@
 {
-  "name": "@pooltogether/owner-manager-contracts",
-  "version": "1.1.0",
-  "description": "PoolTogether Owner Manager Contracts",
+  "name": "@n3r/owner-manager-contracts",
+  "version": "1.0.0",
+  "description": "Niffl3rReturns Owner Manager Contracts",
   "main": "index.js",
   "license": "MIT",
+  "repository": "https://github.com/Niffl3rReturns/owner-manager-contracts",
   "scripts": {
     "clean": "rm -rf cache/ artifacts/",
     "compile": "mkdir -p abis && hardhat --show-stack-traces --max-memory 8192 compile",
