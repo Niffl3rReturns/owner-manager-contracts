@@ -38,7 +38,6 @@ jobs:
           node-version: '18.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@n3r'
-      - run: yarn addscope
       - name: Publish to GitHub Packages
         run: npm publish
         env:
