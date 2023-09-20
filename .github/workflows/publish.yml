@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: '18.x'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@n3r'
+          scope: '@niffl3rreturns'
       - name: Publish to GitHub Packages
         run: npm publish
         env:
